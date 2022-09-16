@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="678c30c2-3f04-4f6e-81f4-d894f345e3aa" name="变更" comment="" />
+    <list default="true" id="a8bb7543-5e52-4c6c-86c9-6146705870da" name="变更" comment="2nd commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NumPy切片和引索.py" beforeDir="false" afterPath="$PROJECT_DIR$/NumPy 从数值范围创建数组.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplotlib-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotlib-1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpy_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/numpy_test.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2Ejd1elLuHbQCk44wkmUTrMdGoE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -28,7 +36,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.numpy_test">
+  <component name="RunManager" selected="Python.matplotlib-1">
+    <configuration name="NumPy 从数值范围创建数组" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject-Matplotlib学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NumPy 从数值范围创建数组.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="matplotlib-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject-Matplotlib学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,8 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.numpy_test" />
         <item itemvalue="Python.matplotlib-1" />
+        <item itemvalue="Python.NumPy 从数值范围创建数组" />
+        <item itemvalue="Python.numpy_test" />
       </list>
     </recent_temporary>
   </component>
@@ -90,6 +120,30 @@
       <option name="presentableId" value="Default" />
       <updated>1663112713440</updated>
     </task>
+    <task id="LOCAL-00001" summary="2nd commit">
+      <created>1663293497613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663293497613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd commit" />
   </component>
 </project>

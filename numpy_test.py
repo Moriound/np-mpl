@@ -71,6 +71,7 @@ print('nd.flags:\n', a6.flags)  # 内存信息
 print('nd.real:\n', a6.real)  # 实部
 print('nd.imag:\n', a6.imag)  # 虚部
 print('nd.data:\n', a6.data)  # 包含实际数组元素的缓冲区，由于一般通过数组的索引获取元素，所以通常不需要使用这个属性。
+print("----------------------------\n")
 
 # 创建数组的方式
 """
@@ -78,12 +79,47 @@ np.array 给定数据创建
 np.empty，np.zeros，np.ones 创建指定大小数组 分别填充 随机数字，0，1
     共有参数 shape:数组行列大小 dtype:数组元素类型 order:'C'(默认)/'F' 行/列优先
 """
-
+print("np.empty:")
 a7 = np.empty([2, 3], 'i4')
 print('a7:\n', a7)
 
+print("np.zeros:")
 a8 = np.zeros([2, 3], 'i4')
 print('a8:\n', a8)
 
+print("np.ones:")
 a9 = np.ones([3, 3], 'i4')
 print('a9:\n', a9)
+print("----------------------------\n")
+
+#  从已有的数组创建数组
+"""
+np.array(略) and np.asarray(a, dtype = None, order = None)
+asarray参数 a 元组/列表 dtype 数据类型 order:'C'(默认)/'F' 行/列优先
+
+np.frombuffer(buffer, dtype = float, count = -1, offset = 0) #任意对象，一流的形式读入
+np.fromiter(iterable, dtype, count=-1)#迭代器对象
+"""
+
+#asarray
+print("np.asarray:")
+a = ([1,2,3],[4,5,6])
+a10 = np.asarray(a)
+print("a10:\n", a10)
+print("----------------------------\n")
+
+# frombuffer
+print("np.frombuffer:")
+a = b'a151v2fbvxc'
+print('a.type:\n', type(a))
+a11 = np.frombuffer(a, dtype='S1')
+print("a11:\n", a11)
+print("----------------------------\n")
+
+# iter
+print("np.fromiter:")
+it = iter([i for i in range(10) ])
+print("it.type:\n", type(it))
+a12 = np.fromiter(it, dtype='i4')
+print("a12:\n", a12)
+print("----------------------------\n")
