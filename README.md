@@ -11,6 +11,11 @@
 
 ![numpy-3.png](https://github.com/Moriound/np-mpl/blob/master/img/numpy-3.png?raw=true)
 
+### numpy_ 从数值范围创建数组.py
+#### 从数值范围创建numpy数组
+##### 输出结果
+
+![numpy-4.png](https://github.com/Moriound/np-mpl/blob/master/img/numpy-4.png?raw=true)
 
 
 
