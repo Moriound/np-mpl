@@ -35,6 +35,7 @@ def drawFlowers():
     print(et - st)
     btn.config(state='normal')
 
+
 # 多线程
 def subTreading():
     threading.Thread(target=drawFlowers, daemon=True).start()
@@ -53,7 +54,6 @@ ax.set_yticklabels([])
 can_plt = FigureCanvasTkAgg(fig, master=can)
 can_plt.draw()
 can_plt.get_tk_widget().pack()
-
 
 btn.config(command=subTreading)
 
